@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: djangorestframework-gis
+Version: 0.1
+Summary: Geographic add-ons for Django Rest Framework
+Home-page: https://github.com/dmeehan/django-rest-framework-gis
+Author: Douglas Meehan
+Author-email: dmeehan@gmail.com
+License: BSD
+Download-URL: https://github.com/dmeehan/django-rest-framework-gis/tarball/v0.1
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Internet :: WWW/HTTP
