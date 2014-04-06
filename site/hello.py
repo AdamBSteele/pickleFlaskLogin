@@ -1,9 +1,10 @@
-from flask import Flask
+from flask import Flask, request, render_template
 from flask.ext.openid import OpenID
 from flask import g, session, redirect, url_for
 
 app = Flask(__name__)
 app.debug=True
+app.secret_key = "foosberry"
 
 
 oid = OpenID(app, '/path/to/store', safe_roots=[])
@@ -30,7 +31,7 @@ def login():
 
 @app.route('/')
 def index():
-	return redirect(url_for('hello'))
+	return render_template('index.html')
 
 @app.route('/hello')
 def hello_world():
